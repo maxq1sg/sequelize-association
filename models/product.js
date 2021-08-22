@@ -21,6 +21,7 @@ module.exports = (sequelize, DataTypes) => {
       },
       count_in_stock: {
         type: DataTypes.INTEGER,
+        defaultValue: 0,
         allowNull: false,
       },
     },

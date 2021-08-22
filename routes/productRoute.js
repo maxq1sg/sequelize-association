@@ -3,6 +3,7 @@ const router = Router();
 const productController = require("./../controlers/productsController");
 
 router.post("/", productController.createProduct);
+router.post("/multiple", productController.createMultipleProducts);
 
 // router.get("/", userController.findAllUsers);
 // router.get("/", userController.findAllUsers);
